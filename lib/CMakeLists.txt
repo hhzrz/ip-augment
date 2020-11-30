@@ -1,0 +1,1 @@
+add_library(ip2region SHARED ip2region.c)
