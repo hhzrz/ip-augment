@@ -6,7 +6,7 @@
   ```
 - Then run container:
   ```
-  redis-server --loadmodule /redis-modules/libip_augment.so /path/to/db/file
+  docker run -d --name ip-augment -p 6379:6379 ip-augment:latest 
   ```
 
 # Redis module command
